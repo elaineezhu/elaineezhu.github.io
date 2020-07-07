@@ -18,3 +18,22 @@ body {
     text-align: center;
     font-size: 70px;
 }
+a {
+    text-decoration: none !important;
+}
+a:link {
+    color:black;
+  }
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: gray;
+  }
+  
+  a:active {
+    color: lightskyblue;
+    text-decoration: none !important;
+  }
+
