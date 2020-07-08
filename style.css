@@ -147,11 +147,11 @@ html{
 }
 
 .parallax-window .content:nth-child(1) {
-  animation-delay: 3s;
+  animation-delay: 3.5s;
 }
 
 .parallax-window .content:nth-child(2) {
-  animation-delay: 3s;
+  animation-delay: 3.5s;
 }
 
 
