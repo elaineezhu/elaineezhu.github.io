@@ -89,3 +89,70 @@ a:link {
 .box:hover .img-text{
   display:block;
 }
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+.line-1{
+    font-family: Anonymous Pro;
+    position: relative;
+    top: 100%;  
+    width: 24em;
+    padding-left: 20px;
+    border-right: 2px solid black;
+    font-size: 180%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+  
+}
+.anim-typewriter{
+  animation: typewriter 2s steps(35) 1s 1 normal both,
+             blinkTextCursor 600ms steps(35) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 8em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
+
+@keyframes chainReaction {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*div p {
+  animation: chainReaction 2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}*/
+
+.parallax-window .content {
+  animation: chainReaction 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.parallax-window .content:nth-child(1) {
+  animation-delay: 3s;
+}
+
+.parallax-window .content:nth-child(2) {
+  animation-delay: 3s;
+}
+
+
+/*WindowOnload Fade-In*/
