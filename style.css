@@ -86,6 +86,12 @@ a:link {
 .box:hover .img-text{
   display:block;
 }
+
+.photos{
+  font-size: 70px;
+  text-align: center;
+}
+
 .line-1{
     font-family: Anonymous Pro;
     position: relative;
@@ -97,8 +103,6 @@ a:link {
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
-  
-
 }
 .anim-typewriter{
   animation: typewriter 2s steps(35) 1s 1 normal both,
