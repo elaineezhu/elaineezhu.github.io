@@ -90,10 +90,6 @@ a:link {
 .box:hover .img-text{
   display:block;
 }
-html{
-  min-height: 100%;
-  overflow: hidden;
-}
 .line-1{
     font-family: Anonymous Pro;
     position: relative;
