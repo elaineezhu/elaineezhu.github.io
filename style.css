@@ -208,25 +208,28 @@ a:link {
   margin-top: -10px;
   background-color:#c7ceea;
 }
+
 @media only screen and (max-width: 767px) {
-  .button {
+  .home {
   text-align:center!important;
   }
 }
-.button {
+.home {
   background-color: white;
   color: black;
   border: 2px solid #555555;
-  -ms-transform: translateX(600%);
-  transform: translateX(600%);
+  margin: 0 auto;
+  position: relative;
   width: 100px;
   height: 40px;
-  position: relative;
   text-align: center;
   font-size: 15px;
   cursor: pointer;
 }
-.button:hover {
+.home:hover {
   background-color: #555555;
   color: white;
+}
+.button{
+  text-align: center;
 }
