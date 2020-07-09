@@ -208,7 +208,11 @@ a:link {
   margin-top: -10px;
   background-color:#c7ceea;
 }
-
+@media only screen and (max-width: 767px) {
+  .button {
+  text-align:center!important;
+  }
+}
 .button {
   background-color: white;
   color: black;
