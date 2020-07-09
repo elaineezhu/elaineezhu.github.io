@@ -219,8 +219,8 @@ a:link {
   height: 40px;
   margin: 0 auto;
   font-size: 15px;
+  cursor: pointer;
 }
-
 .button:hover {
   background-color: #555555;
   color: white;
