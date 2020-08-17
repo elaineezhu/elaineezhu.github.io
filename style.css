@@ -100,7 +100,7 @@ a:link {
   text-align: center;
 }
 
-.line-1{
+.hello{
     font-family: Anonymous Pro;
     position: relative;
     top: 100%;  
@@ -112,7 +112,7 @@ a:link {
     white-space: nowrap;
     overflow: hidden;
 }
-.anim-typewriter{
+.typewriter-animation{
   animation: typewriter 2s steps(35) 1s 1 normal both,
              blinkTextCursor 600ms steps(35) infinite normal;
 }
