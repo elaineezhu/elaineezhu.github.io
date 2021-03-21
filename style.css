@@ -115,7 +115,7 @@ a:link {
 .typewriter-animation{
   animation: typewriter 2s steps(35) 1s 1 normal both,
              blinkTextCursor 600ms steps(35) infinite normal;
-  font-size: 8vh;
+  font-size: 7vh;
 }
 @keyframes typewriter{
   from{width: 0;}
