@@ -115,6 +115,7 @@ a:link {
 .typewriter-animation{
   animation: typewriter 2s steps(35) 1s 1 normal both,
              blinkTextCursor 600ms steps(35) infinite normal;
+  font-size: 8vh;
 }
 @keyframes typewriter{
   from{width: 0;}
@@ -224,6 +225,18 @@ a:link {
   padding-bottom: 5px;
   margin-top: -10px;
   background-color: lightgray;
+}
+
+.activitytitle{
+  font-size: 4.5vh;
+}
+
+.activityperiod{
+  font-size: 3vh;
+}
+
+.activitydescription{
+  font-size: 2.5vh;
 }
 
 .home {
